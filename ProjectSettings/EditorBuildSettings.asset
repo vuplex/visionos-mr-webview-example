@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Samples/PolySpatial/Scenes/Manipulation.unity
-    guid: 139d55bb8d7b3fd4bbfbefe95464cc7f
+    path: Assets/Scenes/WindowedWebViewExample.unity
+    guid: 88f22ff8ec94b4d14a051df31be2f987
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 42baa971a323f4885b5bbc2e0f10733e,
       type: 2}
