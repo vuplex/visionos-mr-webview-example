@@ -1,11 +1,12 @@
 {
   "dependencies": {
     "com.unity.burst": {
-      "version": "1.8.11",
+      "version": "1.8.12",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.mathematics": "1.2.1"
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -29,13 +30,13 @@
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.flatsharp": {
-      "version": "1.0.1",
+      "version": "1.1.1",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -49,7 +50,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.27",
+      "version": "3.0.28",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -104,7 +105,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.polyspatial": {
-      "version": "1.0.3",
+      "version": "1.1.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -113,7 +114,7 @@
         "com.unity.collections": "2.1.4",
         "com.unity.textmeshpro": "3.0.7",
         "com.unity.xr.core-utils": "2.3.0",
-        "com.unity.ext.flatsharp": "1.0.1",
+        "com.unity.ext.flatsharp": "1.1.1",
         "com.unity.modules.particlesystem": "1.0.0",
         "com.unity.inputsystem": "1.4.4",
         "com.unity.modules.video": "1.0.0",
@@ -122,19 +123,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.polyspatial.visionos": {
-      "version": "1.0.3",
+      "version": "1.1.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.polyspatial": "1.0.3",
-        "com.unity.polyspatial.xr": "1.0.3",
-        "com.unity.xr.visionos": "1.0.3",
+        "com.unity.polyspatial": "1.1.6",
+        "com.unity.polyspatial.xr": "1.1.6",
+        "com.unity.xr.visionos": "1.1.6",
         "com.unity.xr.management": "4.4.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.polyspatial.xr": {
-      "version": "1.0.3",
+      "version": "1.1.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -143,14 +144,14 @@
         "com.unity.textmeshpro": "3.0.7",
         "com.unity.xr.core-utils": "2.3.0",
         "com.unity.inputsystem": "1.4.4",
-        "com.unity.polyspatial": "1.0.3",
+        "com.unity.polyspatial": "1.1.6",
         "com.unity.xr.arfoundation": "5.1.0",
         "com.unity.xr.hands": "1.1.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "14.0.9",
+      "version": "14.0.10",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -161,14 +162,14 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "14.0.9",
+      "version": "14.0.10",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.8.9",
-        "com.unity.render-pipelines.core": "14.0.9",
-        "com.unity.shadergraph": "14.0.9",
+        "com.unity.render-pipelines.core": "14.0.10",
+        "com.unity.shadergraph": "14.0.10",
         "com.unity.render-pipelines.universal-config": "14.0.9"
       }
     },
@@ -188,11 +189,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "14.0.9",
+      "version": "14.0.10",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "14.0.9",
+        "com.unity.render-pipelines.core": "14.0.10",
         "com.unity.searcher": "4.9.2"
       }
     },
@@ -238,7 +239,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.1",
+      "version": "1.9.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -248,8 +249,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "5.1.1",
-      "depth": 1,
+      "version": "5.1.2",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
@@ -309,10 +310,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.visionos": {
-      "version": "1.0.3",
-      "depth": 0,
+      "version": "1.1.6",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
+        "com.unity.xr.core-utils": "2.3.0",
         "com.unity.xr.arfoundation": "5.1.0",
         "com.unity.xr.management": "4.3.3"
       },

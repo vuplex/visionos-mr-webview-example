@@ -7,9 +7,9 @@ This Unity project demonstrates how to view and interact with web content in Mix
 
 ## Steps taken to create this project
 
-1. Created a new project with Unity 2022.3.17 using the 3D URP project template.
+1. Created a new project with Unity 2022.3.22 using the 3D URP project template. 3D WebView for visionOS requires Unity 2022.3.19 or newer.
 2. Opened the Unity Package Manager and did the following:
-    - Imported the com.unity.polyspatial.visionos package and its dependencies.
+    - Imported v1.1.6 of the com.unity.polyspatial.visionos package and its dependencies. 3D WebView for visionOS requires v1.1 or newer of the visionOS XR and PolySpatial packages.
     - On the page for the com.unity.polyspatial package, clicked on the "Samples" tab and clicked "Import" button for "Unity PolySpatial Samples".
 3. Made a copy of the Manipulation sample scene and named it [WindowedWebViewExample](./Assets/Scenes/WindowedWebViewExample.unity).
 4. Added a [WindowedWebViewExample.cs](./Assets/Scripts/WindowedWebViewExample.cs) script that uses the [VisionOSWebView.CreateInWindow()](https://developer.vuplex.com/webview/VisionOSWebView#CreateInWindow) API to open a windowed webview.
